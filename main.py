@@ -13,6 +13,11 @@ norm_scaler = pickle.load(open("norm_scaler.obj", "rb"))
 
 # To predict sepal length
 # starting with main coading
+
+def req():
+    print("abc request")
+    return "hello"
+    
 def request():
     print("User request")
     return "Hello"
