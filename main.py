@@ -10,7 +10,7 @@ linear_model = pickle.load(open("linear_model.pkl", "rb"))
 columns_list = pickle.load(open("columns_list.obj", "rb"))
 norm_scaler = pickle.load(open("norm_scaler.obj", "rb"))
 
-# Starting with api coding
+
 # To predict sepal length
 # starting with main coading
 def request():
